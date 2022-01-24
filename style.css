@@ -1,0 +1,70 @@
+body {
+    background-color: #3d3d3d;
+}
+
+#myName {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: auto;
+    height: auto;
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#about {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: auto;
+    height: auto;
+    padding-left: 20px;
+    font-size: 32px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.green {
+    color: #00ff0d;
+}
+
+.white {
+    color: #f1f1f1;
+}
+
+.blue {
+    color: #3b73b3;
+}
+
+.fa {
+    padding: 5px 5px 5px 20px;
+    font-size: 50px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    color: #8d8d8d;
+  }
+  
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+
+  footer {
+    background-color: #3d3d3d;
+    color: #8d8d8d;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 5px;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+a {
+    color: #8d8d8d;
+}
