@@ -1,9 +1,9 @@
 body {
     background-color: #181818;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 #myName {
-    font-family: 'Courier New', Courier, monospace;
     display: flex;
     font-size: 35px;
     height: 36px;
@@ -14,7 +14,6 @@ body {
     justify-content: left;
     padding-left: 20px;
     font-size: 32px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 #links {
@@ -42,15 +41,13 @@ body {
     text-decoration: none;
     color: #8d8d8d;
     opacity: 0.5;
-  }
-  
-  
-  .fa:hover {
-    opacity: 0.2;
-  }
+}
 
-  footer {
-    background-color: #181818;
+.fa:hover {
+    opacity: 0.2;
+}
+
+footer {
     color: #575757;
     position: absolute;
     bottom: 0;
@@ -61,7 +58,6 @@ body {
     width: 100%;
     gap: 10px;
     font-size: 15px;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
